@@ -26,3 +26,8 @@ def take_a_number(deli_line, name)
   end
   deli_line.push(name)
 end
+
+def now_serving(deli_line)
+  puts "Currently serving #{deli_line[0]}."
+  deli_line.
+end
