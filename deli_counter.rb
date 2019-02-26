@@ -23,7 +23,7 @@ def take_a_number(deli_line, name)
     puts "Welcome, #{name}. You are number 1 in line."
     katz_deli.push(name)
   else
-    puts "Welcome, #{name}. You are number #{deli_line.length} in line."
+    puts "Welcome, #{name}. You are number #{deli_line.length+1} in line."
     katz_deli.push(name)
   end
 end
