@@ -28,6 +28,9 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving(deli_line)
+  
+  if deli_line.length == 0
+    
   puts "Currently serving #{deli_line[0]}."
-  deli_line.
+  deli_line.shift
 end
