@@ -34,4 +34,5 @@ def now_serving(deli_line)
   else
     puts "Currently serving #{deli_line[0]}."
     deli_line.shift
+  end
 end
